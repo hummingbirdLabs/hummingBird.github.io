@@ -1,7 +1,14 @@
 baseURL = 'https://hummingbirdlabs.github.io/'
-languageCode = 'zh-cn'
+languageCode = 'en-us' # 修改为 en-us
 title = 'Hummingbird Labs'
 theme = 'PaperMod'
 
 [params]
   defaultTheme = 'auto'
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"       # 修改为 Posts
+    url = "/posts/"
+    weight = 1
