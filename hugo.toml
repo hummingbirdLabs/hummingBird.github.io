@@ -1,0 +1,7 @@
+baseURL = 'https://hummingbirdlabs.github.io/'
+languageCode = 'zh-cn'
+title = 'Hummingbird Labs'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
