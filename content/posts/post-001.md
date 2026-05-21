@@ -27,3 +27,5 @@ draft: false
 
 对于一个深度依赖AI CODING的互联网研发而言，我很希望token能像雨水一样，普惠所有人。
 ![图3](/images/1-03.jpg)
+
+我的邮箱是 HummingbirdLabs@outlook.com  ，欢迎大家来信交流。
