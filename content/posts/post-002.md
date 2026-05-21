@@ -1,6 +1,6 @@
 ---
 title: "我用deepseek v4 pro，还是用qwen 3.6 plus,或者其他"
-date: 2026-05-121 19:11
+date: 2026-05-21T19:11:00+08:00
 draft: false
 ---
 
