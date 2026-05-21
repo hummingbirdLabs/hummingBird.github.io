@@ -5,7 +5,6 @@ draft: false
 ---
 
 # 欢迎来到我的博客
-这是我使用 Hugo 和 PaperMod 主题发布的第一篇文章！
 
 先说结论：我很喜欢github copilot， 而且是copilot的忠实用户，我是copilot pro+会员，$39.00per month。看下面的图片，一个月 1500次的 premium requests 对我而言真的非常棒。 是我疯狂使用AI Coding的源泉。
 
