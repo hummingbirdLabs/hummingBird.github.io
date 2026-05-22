@@ -44,7 +44,7 @@ This sense of mission and responsibility, in my personal view, stems from the fo
 # A Brief About Me
 I've worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&D projects and managing teams of 100+ engineers.
 
-Now, I'm building an AI startup.
+Currently, I'm pursuing entrepreneurship in the AI field.
 
 Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.
 
