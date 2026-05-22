@@ -1,30 +1,33 @@
 ---
-title: "Copilot在2026年6月调整计费方案，看了自己4月和5月的账单（Preview）吓了一跳"
+title: "GitHub Copilot’s June 2026 Billing Changes: My April and May Statements (Preview) Shocked Me"
 date: 2026-05-19T20:00:00+08:00
 draft: false
 ---
 
-# 欢迎来到我的博客
+# I Love GitHub Copilot, But Its June 2026 Billing Changes Worried Me
 
-先说结论：我很喜欢github copilot， 而且是copilot的忠实用户，我是copilot pro+会员，$39.00per month。看下面的图片，一个月 1500次的 premium requests 对我而言真的非常棒。 是我疯狂使用AI Coding的源泉。
+Let me be clear: I genuinely love GitHub Copilot. As a loyal user and Copilot Pro+ subscriber ($39.00 per month), the 1,500 premium requests per month shown below have been invaluable—it’s the fuel behind my AI-powered coding workflow.
 
 ![图1](/images/1-00.jpg)
 
-我想说：这个价格的 AI CODING,就是便宜到极点、方便到极点的 token燃料。 我很喜欢github copilot，也很感谢微软提供这样的服务。虽然很可惜，到了2026年6月就要按照使用的token进行计费了。
+I’d call this the most affordable, seamless token fuel for AI coding available. I’m deeply grateful to Microsoft for this service—though it’s disappointing that starting June 2026, billing will shift to a per-token model.
 
-我用微软提供的Preview功能（https://copilot-billing-preview.github.com/），导入自己4月和5月的账单，可以看到如果按照6月的计费方式，我4月花费141.04$,而5月（到5.18号）会花费425.15。
+Using Microsoft’s Preview tool (https://copilot-billing-preview.github.com/), I analyzed my April and May statements. Under the new June pricing:
+1、April would cost $141.04
+2、May (through May 18) would cost $425.15
 
 ![图2](/images/1-01.jpg)
 
 ![图3](/images/1-02.jpg)
 
-这个价格对我来说真的是很贵、很贵、很贵。重复3次。 但我理解微软的定价策略，应该毕竟很多模型是其他公司的，你们不是最上游的LLM技术方案的提供者，在定价权上处于被动角色。
+This is extremely expensive. Extremely expensive. Extremely expensive. (Yes, I’m repeating it three times.) I understand Microsoft’s pricing strategy—they rely on third-party models and lack full control over upstream LLM costs. Still, the jump is staggering.
 
-基于以上原因：我决定探索 更加便宜、能力也能解决claude 的 AI Coding 大模型。 
-
-这是我接下来的任务，也是下一篇blog也要讲的内容。我会探索 deepseek v4 pro 和 Qwen 3.6 plus等大模型的编程能力和成本。
-
-对于一个深度依赖AI CODING的互联网研发而言，我很希望token能像雨水一样，普惠所有人。
+What’s Next?
+Given this, I’ll now explore more affordable large models that can handle complex coding tasks, like DeepSeek v4 Pro and Qwen 3.6 Plus. My next blog will compare their coding capabilities and cost efficiency.
+For developers deeply reliant on AI coding, tokens should feel as abundant and accessible as rain—not a luxury resource.
 ![图3](/images/1-03.jpg)
 
-我的邮箱是 HummingbirdLabs@outlook.com  ，欢迎大家来信交流。
+Feel free to reach out: mailto:HummingbirdLabs@outlook.com.
+
+reach out to discuss AI coding tools, cost strategies, or stormy billing surprises.
+P.S. As a former engineer at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, I’ve seen tech pricing shifts before. But this one stings.

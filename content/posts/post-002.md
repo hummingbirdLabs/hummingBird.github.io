@@ -1,51 +1,69 @@
 ---
-title: "我用deepseek v4 pro，还是用qwen 3.6 plus,或者其他"
+title: "DeepSeek v4 Pro, Qwen 3.6 Plus, or Others: Which Should I Use?"
 date: 2026-05-21T19:11:00+08:00
 draft: false
 ---
 
-# 欢迎来到我的博客
-在2026年5月之前，我并没有用过deepseek 或 qwen 3.6 plus，或中国的其他LLM大模型进行编程。
-事实上，如果看过我上一篇blog的人应该知道：我之前主要使用copilot上的大模型编程，最喜欢 Claude sonnet 3.6 \Cluade opus 4.7(有点贵，如果你是大款，当我没说)；其次喜欢GPT Codex 5.3。
+# i like deepseek and Qwen
+Before May 2026, I had never used DeepSeek, Qwen 3.6 Plus, or any other Chinese LLMs for programming.
+As readers of my previous blog might recall, I primarily relied on GitHub Copilot’s models, favoring Claude Sonnet 3.6 and Claude Opus 4.7 (a bit pricey—if you’re wealthy, pretend I didn’t say that). My secondary choice was GPT Codex 5.3.
 
-所以当让我使用deepseek 或 qwen 3.6 plus时，我内心是有点顾虑的：担心代码质量不符合我的要求。
+So when I first considered using DeepSeek or Qwen 3.6 Plus, I was skeptical—worried their code quality wouldn’t meet my standards.
+I knew strategies like syntax/structure constraints and cross-model code reviews could mitigate risks, but I still wanted the base model’s capability to be as strong as possible.
 
-虽然我知道：通过 语法宪法、架构宪法，可以很大程度的规避问题；然后用不同LLM大模型进行交叉code review，也可以降低bug概率。 但我还是期望模型本身的能力越强越好。
+## First Steps with DeepSeek
 
-我首先在deepseek的官网上充钱。有图有真相。
+I started by topping up credits on DeepSeek’s official platform. Proof below:
 ![图1](/images/2-01.jpg)
 
-我在随后的几天，较为密集的使用了deepseek v4 pro。 为了让大家有一个直观的感受，我做了一个表格。
+Over the next few days, I intensively tested DeepSeek v4 Pro. To give you a clear picture, here’s my usage breakdown:
+### May 17, 2026
+Cost: 18.28 RMB (≈ $2.53)
+Total tokens: 66,488,180
+Input (cached): 61,606,016
+Input (uncached): 4,193,347
+Output: 687,817
 
-2026年5月17：花费 18.28人民币，折合不到3美元。
-总计使用 66,488,180 tokens；输入（命中缓存）61，606,016 tokens；输入（未命中缓存）4，193,347 tokens；输出 687,817 tokens。
-
-2026年5月20：花费 6.61人民币，折合1美元。
-总计使用 38,690,681 tokens；输入（命中缓存）37，049,600 tokens；输入（未命中缓存）1，387,345 tokens；输出 253,736 tokens。
+### May 20, 2026
+Cost: 6.61 RMB (≈ $0.92)
+Total tokens: 38,690,681
+Input (cached): 37,049,600
+Input (uncached): 1,387,345
+Output: 253,736
 
 ![图2](/images/2-02.jpg)
 
 
-整体而言：如果我保持过去几个月的高强度AI CODE，持续使用deep seek v4 pro，那么必然一天花费大概是 40人民币，折合6美元；一个月30天，则花费1200人民币，折合180美元左右。
+If I maintain my recent high-intensity AI coding pace with DeepSeek v4 Pro:
+Daily cost: ~40 RMB (≈ $5.55); Monthly cost (30 days): ~1,200 RMB (≈ $166.50).
 
-便宜吗？ 如果对比 copilot pro+,每月39美元， 1500次的高级调用（claude sonnet 4.6 算一次高级调用），那么不便宜。
-但如果对比 2026年6月 copilot调整计费规则后，那就很便宜（有兴趣的可以去看我第一篇blog，可以看到2026年4月和5月，估算的copilot计费规则调整之后的费用）。
+Is this cheap?
+Compared to Copilot Pro+ ($39/month for 1,500 premium requests, e.g., one Claude Sonnet 4.6 call), no.
 
-另外，需要说明的是：deepseek v4 pro，在2026年5月31号之前都是 2.5折优惠的。如图：
+But compared to Copilot’s post-June 2026 pricing (see my first blog), it’s a bargain.
+
+Important Note:DeepSeek v4 Pro is currently 25% off until May 31, 2026 (see screenshot below). After June, prices will revert to standard rates.
 ![图3](/images/2-03.jpg)
 
 
-所以，2026年6月后，我会在新的blog中再次贴上账单，让我们看看编程中实际花费如何。
+I’ll share updated billing data in a follow-up blog to track real-world costs post-discount.
 
-下一篇blog，我将讲述Qwen 3.6 plus的AI CODE 花费。
-让我想想：后续我还想写，如何节省token，以及在不节省token的情况下，如何省钱。 
-其实无非就这么几种选择：
-1、优化编程流程，节省token；
-2、不节省token，通过一些方式也可以省钱；
-3、但最重要的时，省钱的同时，要保障代码质量，如何做到呢?这也是单独的一个blog。
+## What’s Next?
+In my next post, I’ll analyze Qwen 3.6 Plus’s AI coding costs. 
 
-我的邮箱是 HummingbirdLabs@outlook.com  ，欢迎大家来信交流。
+After that, I’ll dive into:
+1、Token-saving strategies without sacrificing code quality.
+2、Cost-cutting methods that don’t rely on reducing token usage.
+3、Balancing affordability and reliability—how to save money while maintaining high code standards.
 
-另外，我今天必须表扬一下 google gemini，因为我在google gemini中贴图片问她问题，她居然返回了一个【有用户操作指南的图片】，确实惊艳了我。如下图：
+## A Shoutout to Google Gemini
+Today, I must praise Google Gemini. When I pasted an image asking for help, it returned a step-by-step guide image—truly impressive!
 ![图4](/images/2-04.jpg)
+
+## About Me
+I’ve worked at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, leading large-scale R&D projects. Now, I’m building an AI startup—because uncertainty fuels innovation, and corporate roles breed complacency.
+Reach out: mailto:
+HummingbirdLabs@outlook.com.
+
+ Let’s discuss AI coding, cost optimization, or the future of LLMs.
 
