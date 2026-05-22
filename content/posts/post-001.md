@@ -2,6 +2,18 @@
 title: "GitHub Copilot’s June 2026 Billing Changes: My April and May Statements (Preview) Shocked Me"
 date: 2026-05-19T20:00:00+08:00
 draft: false
+author: "Hummingbird Labs"
+
+description: "A Copilot Pro+ subscriber ($39/mo) reveals that under GitHub Copilot's new June 2026 per-token billing, their April usage would cost $141 and May $425 — and what cheaper LLM alternatives to explore next."
+
+tags: ["GitHub Copilot", "AI Tools", "Developer Tools", "LLM Cost", "Billing"]
+keywords: ["GitHub Copilot billing 2026", "Copilot Pro+ per-token pricing", "AI coding cost", "June 2026 Copilot changes", "LLM token cost"]
+
+cover:
+  image: /images/1-00.jpg
+  alt: "GitHub Copilot Pro+ billing statement showing premium request usage"
+  caption: "1,500 premium requests/month under Copilot Pro+ — the fuel behind my AI coding workflow"
+  relative: false
 ---
 
 # I Love GitHub Copilot, But Its June 2026 Billing Changes Worried Me

@@ -2,6 +2,18 @@
 title: "DeepSeek v4 Pro, Qwen 3.6 Plus, or Others: Which Should I Use?"
 date: 2026-05-21T19:11:00+08:00
 draft: false
+author: "Hummingbird Labs"
+
+description: "Real daily usage data comparing DeepSeek v4 Pro vs Qwen 3.6 Plus for AI-assisted coding: token counts, RMB costs, and which model gives better value after GitHub Copilot's June 2026 pricing shift."
+
+tags: ["DeepSeek", "Qwen", "LLM", "AI Coding", "Cost Analysis", "Model Comparison"]
+keywords: ["DeepSeek v4 Pro review", "Qwen 3.6 Plus review", "AI coding model comparison", "LLM cost per token", "GitHub Copilot alternative 2026"]
+
+cover:
+  image: /images/2-01.jpg
+  alt: "DeepSeek platform showing token usage breakdown and cost for AI coding sessions"
+  caption: "My first DeepSeek top-up — starting the comparison journey"
+  relative: false
 ---
 
 # i like deepseek and Qwen

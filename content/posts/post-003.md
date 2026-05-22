@@ -2,6 +2,18 @@
 title: "Using Qwen 3.6 Plus: Great but a Bit Expensive"
 date: 2026-05-22T08:22:00+08:00
 draft: false
+author: "Hummingbird Labs"
+
+description: "Hands-on cost analysis of Qwen 3.6 Plus for large-scale C# development: why 876K tokens for 1.7 RMB looks cheap but 30 RMB per engineering task adds up fast, and how a dual-model strategy with DeepSeek cuts the bill."
+
+tags: ["Qwen", "DeepSeek", "AI Coding", "Cost Analysis", "C#", "LLM"]
+keywords: ["Qwen 3.6 Plus cost", "Qwen vs DeepSeek programming", "AI coding expense", "LLM for C# development", "Alibaba Cloud Qwen billing"]
+
+cover:
+  image: /images/3-01.jpg
+  alt: "Alibaba Cloud console showing Qwen 3.6 Plus token usage and billing details"
+  caption: "Qwen 3.6 Plus billing — looks cheap per line, but large tasks consume credits fast"
+  relative: false
 ---
 
 # I Think Qwen 3.6 Plus Has Strong Coding Capabilities, But My Costs Are Higher Than Expected

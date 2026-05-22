@@ -1,14 +1,74 @@
 baseURL = 'https://hummingbirdlabs.github.io/'
-languageCode = 'en-us' # 修改为 en-us
+languageCode = 'en-us'
 title = 'Hummingbird Labs'
 theme = 'PaperMod'
 
+enableRobotsTXT = true
+buildDrafts     = false
+buildFuture     = false
+buildExpired    = false
+
+[sitemap]
+  changefreq = 'weekly'
+  priority   = 0.5
+  filename   = 'sitemap.xml'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
 [params]
+  env         = 'production'          # Enables OG / Twitter Cards / Schema.org
   defaultTheme = 'auto'
+
+  # ── Site-wide SEO ────────────────────────────────────────────────────────────
+  description = "Hummingbird Labs — real-world insights on AI coding, LLM cost analysis, and developer tooling by a veteran engineer from Tencent, Meituan, and Baidu."
+  author      = "Hummingbird Labs"
+  keywords    = ["AI coding", "LLM", "GitHub Copilot", "DeepSeek", "Qwen", "developer tools", "LLM cost analysis"]
+
+  # ── UX / Readability (also helps SEO via engagement) ─────────────────────────
+  ShowReadingTime     = true
+  ShowWordCount       = true
+  ShowPostNavLinks    = true
+  ShowBreadCrumbs     = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons    = true
+  ShowToc             = true
+
+  # ── Cover images (OG / Twitter card fallback) ────────────────────────────────
+  [params.cover]
+    hidden          = false
+    hiddenInList    = false
+    hiddenInSingle  = false
+    linkFullImages  = true
+    responsiveImages = true
+
+  # ── Schema.org publisher type ─────────────────────────────────────────────────
+  [params.schema]
+    publisherType = "Person"
+
+  # ── Social handles (twitter:site + Schema sameAs) ────────────────────────────
+  [params.social]
+    # Add your handles when available, e.g.:
+    # twitter = "HummingbirdLabs"
+
+  # ── Favicon colours ───────────────────────────────────────────────────────────
+  [params.assets]
+    theme_color          = "#2e2e33"
+    msapplication_TileColor = "#2e2e33"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"       # 修改为 Posts
-    url = "/posts/"
-    weight = 1
+    name       = "Posts"
+    url        = "/posts/"
+    weight     = 1
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags/"
+    weight     = 2
+  [[menu.main]]
+    identifier = "search"
+    name       = "Search"
+    url        = "/search/"
+    weight     = 3

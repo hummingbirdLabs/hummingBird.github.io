@@ -1,0 +1,38 @@
+{{- /*
+  extend_head.html — site-level SEO additions that complement PaperMod's
+  built-in OG / Twitter / Schema partials.
+
+  Rendered inside <head> on every page.
+*/ -}}
+
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+
+  {{- /* ── OG image dimensions (helps social crawlers render the card correctly) ── */}}
+  {{- if .IsPage }}
+    {{- if .Params.cover.image }}
+      <meta property="og:image:width"  content="1200">
+      <meta property="og:image:height" content="630">
+    {{- end }}
+
+    {{- /* ── OG article:author ─────────────────────────────────────────────── */}}
+    {{- with (partial "author.html" .) }}
+      <meta property="article:author" content="{{ . }}">
+    {{- end }}
+
+    {{- /* ── Twitter creator tag ──────────────────────────────────────────── */}}
+    {{- with site.Params.social }}
+      {{- if reflect.IsMap . }}
+        {{- with .twitter }}
+          {{- $handle := . }}
+          {{- if not (strings.HasPrefix . "@") }}{{ $handle = printf "@%v" . }}{{ end }}
+          <meta name="twitter:creator" content="{{ $handle }}">
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* ── DNS prefetch / preconnect for external resources ─────────────────── */}}
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{- end }}
