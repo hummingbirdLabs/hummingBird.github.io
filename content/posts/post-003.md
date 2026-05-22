@@ -19,20 +19,27 @@ Below is a partial cost breakdown from my usage of Qwen 3.6 Plus. It might look 
 
 
 Another important note: Alibaba grants new users 1 million free tokens for many models, as shown below.
+
 But is 1 million tokens truly generous? From my hands-on coding experience:
 1 million tokens only cover 1–3 large programming tasks or several code reviews.
 For heavy AI-assisted coding users, 1 million tokens feel like a 100ml beer—barely a sip.
 ![图1](/images/3-02.jpg)
 
 So, if an article boasts about "burning 100 million tokens," it likely reflects limited real-world AI coding experience.
+
 To wrap up, I’d like to acknowledge:
-ByteDance’s TRAE IDE for its innovation;
-DeepSeek v4 Pro for its generous long-context support and current affordability (I’ll share updated billing data in June);
-Qwen 3.6 Plus for its strong coding capabilities and responsive API.
+1、ByteDance’s TRAE IDE for its innovation;
+2、DeepSeek v4 Pro for its generous long-context support and current affordability (I’ll share updated billing data in June);
+3、Qwen 3.6 Plus for its strong coding capabilities and responsive API.
+
 In upcoming blogs, I’ll detail how to leverage AI coding within TRAE.
 
 # A Brief About Me
-I’ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&D projects and managing teams of 100+ engineers. Now, I’m building an AI startup. Why? The world runs on uncertainty—staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.
+I’ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&D projects and managing teams of 100+ engineers.
+
+ Now, I’m building an AI startup. 
+ 
+ Why? The world runs on uncertainty—staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.
 
 Feel free to reach out: mailto:HummingbirdLabs@outlook.com.
 

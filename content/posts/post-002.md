@@ -9,6 +9,7 @@ Before May 2026, I had never used DeepSeek, Qwen 3.6 Plus, or any other Chinese 
 As readers of my previous blog might recall, I primarily relied on GitHub Copilot’s models, favoring Claude Sonnet 3.6 and Claude Opus 4.7 (a bit pricey—if you’re wealthy, pretend I didn’t say that). My secondary choice was GPT Codex 5.3.
 
 So when I first considered using DeepSeek or Qwen 3.6 Plus, I was skeptical—worried their code quality wouldn’t meet my standards.
+
 I knew strategies like syntax/structure constraints and cross-model code reviews could mitigate risks, but I still wanted the base model’s capability to be as strong as possible.
 
 ## First Steps with DeepSeek
@@ -61,9 +62,13 @@ Today, I must praise Google Gemini. When I pasted an image asking for help, it r
 ![图4](/images/2-04.jpg)
 
 ## About Me
-I’ve worked at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, leading large-scale R&D projects. Now, I’m building an AI startup—because uncertainty fuels innovation, and corporate roles breed complacency.
+I’ve worked at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, leading large-scale R&D projects. 
+
+Now, I’m building an AI startup—because uncertainty fuels innovation, and corporate roles breed complacency.
+
+
 Reach out: mailto:
 HummingbirdLabs@outlook.com.
 
- Let’s discuss AI coding, cost optimization, or the future of LLMs.
+Let’s discuss AI coding, cost optimization, or the future of LLMs.
 
