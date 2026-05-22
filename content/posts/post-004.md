@@ -21,20 +21,20 @@ cover:
 Yes — the TRAE China version lets you try multiple large models for free. As shown in the screenshot, all of these models are available at no cost for trial.
 Here's the full list of free models:
 
-Doubao-Seed-2.0-Co...
-Doubao-Seed-1.8
-Doubao-Seed-Code
-MiniMax-M2.7
-MiniMax-M2.5
-GLM-5.1
-GLM-5V-Turbo
-GLM-5
-DeepSeek-V4-Pro
-DeepSeek-V4-Flash
-Kimi-K2.6
-Kimi-K2.5
-Qwen3.6-Plus
-Qwen3.5-Plus
+Doubao-Seed-2.0-Code、
+Doubao-Seed-1.8、
+Doubao-Seed-Code、
+MiniMax-M2.7、
+MiniMax-M2.5、
+GLM-5.1、
+GLM-5V-Turbo、
+GLM-5、
+DeepSeek-V4-Pro、
+DeepSeek-V4-Flash、
+Kimi-K2.6、
+Kimi-K2.5、
+Qwen3.6-Plus、
+Qwen3.5-Plus、  
 
 ![Figure 1](/images/4-01.jpg)
 
