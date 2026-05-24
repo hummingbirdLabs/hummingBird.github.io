@@ -9,6 +9,12 @@ description: "A detailed performance comparison of TRAE China's free LLMs vs pai
 tags: ["TRAE", "DeepSeek", "Free LLM", "AI Coding", "Qwen", "Model Performance", "LLM Speed Comparison", "Chinese LLM", "TRAE China Review"]
 keywords: ["TRAE free model speed", "DeepSeek V4 Pro slow", "Qwen3.6 Plus vs DeepSeek", "TRAE China free LLM performance", "free AI coding model comparison", "DeepSeek think mode", "LLM queue time TRAE"]
 
+cover:
+  image: /images/5-01.jpg
+  alt: "TRAE IDE showing the maximum thinking attempts reached prompt for free DeepSeek V4 Pro model"
+  caption: "Free model limitation: maximum thinking attempts reached — requires manual 'continue' to proceed"
+  relative: false
+
 ---
 
 # TRAE China Version: Real Data on Free Model Speed
