@@ -1,1 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hummingbird Labs</title><link>https://hummingbirdlabs.github.io/</link><description>Recent content on Hummingbird Labs</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 May 2026 09:36:00 +0800</lastBuildDate><atom:link href="https://hummingbirdlabs.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Deepseek V4 Pro Price Drop Again on May 23, 2026</title><link>https://hummingbirdlabs.github.io/posts/post-006/</link><pubDate>Sun, 24 May 2026 09:36:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-006/</guid><description>Deepseek V4 Pro pricing reduced to 25% of original price. Exploring AI model cost trends, WPF development challenges with LLMs, and why detailed debug logging is essential for AI-assisted coding.</description></item><item><title>More on TRAE China Version: Free Models Are Great But Slow</title><link>https://hummingbirdlabs.github.io/posts/post-005/</link><pubDate>Fri, 22 May 2026 21:16:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-005/</guid><description>A detailed performance comparison of TRAE China&amp;#39;s free LLMs vs paid models: DeepSeek V4 Pro with think mode takes 50 minutes for large tasks, while free Qwen3.6 Plus is significantly faster with shorter queue times. Real data from actual coding projects, plus thoughts on DeepSeek&amp;#39;s mission to democratize AI.</description></item><item><title>Why I Use TRAE: Free LLMs, Stability, and 1M Token Context</title><link>https://hummingbirdlabs.github.io/posts/post-004/</link><pubDate>Fri, 22 May 2026 14:37:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-004/</guid><description>A hands-on review of TRAE IDE&amp;#39;s China version: 14 free LLMs including DeepSeek v4 Pro and Qwen 3.6 Plus, 3-minute average wait times for free tier, fewer task freezes vs GitHub Copilot, and how DeepSeek&amp;#39;s 1M-token context window beats Claude&amp;#39;s 168K limit for large codebases.</description></item><item><title>Using Qwen 3.6 Plus: Great but a Bit Expensive</title><link>https://hummingbirdlabs.github.io/posts/post-003/</link><pubDate>Fri, 22 May 2026 08:22:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-003/</guid><description>Hands-on cost analysis of Qwen 3.6 Plus for large-scale C# development: why 876K tokens for 1.7 RMB looks cheap but 30 RMB per engineering task adds up fast, and how a dual-model strategy with DeepSeek cuts the bill.</description></item><item><title>DeepSeek v4 Pro, Qwen 3.6 Plus, or Others: Which Should I Use?</title><link>https://hummingbirdlabs.github.io/posts/post-002/</link><pubDate>Thu, 21 May 2026 19:11:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-002/</guid><description>Real daily usage data comparing DeepSeek v4 Pro vs Qwen 3.6 Plus for AI-assisted coding: token counts, RMB costs, and which model gives better value after GitHub Copilot&amp;#39;s June 2026 pricing shift.</description></item><item><title>GitHub Copilot’s June 2026 Billing Changes: My April and May Statements (Preview) Shocked Me</title><link>https://hummingbirdlabs.github.io/posts/post-001/</link><pubDate>Tue, 19 May 2026 20:00:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-001/</guid><description>A Copilot Pro+ subscriber ($39/mo) reveals that under GitHub Copilot&amp;#39;s new June 2026 per-token billing, their April usage would cost $141 and May $425 — and what cheaper LLM alternatives to explore next.</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hummingbird Labs</title><link>https://hummingbirdlabs.github.io/</link><description>Recent content on Hummingbird Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 May 2026 09:36:00 +0800</lastBuildDate><atom:link href="https://hummingbirdlabs.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Deepseek V4 Pro Price Drop Again on May 23, 2026</title><link>https://hummingbirdlabs.github.io/posts/post-006/</link><pubDate>Sun, 24 May 2026 09:36:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-006/</guid><description>&lt;h2 id="worried-about-deepseek-returning-to-full-price-in-june-2026-but-unexpectedly-it-dropped-again-yesterday"&gt;Worried about Deepseek returning to full price in June 2026, but unexpectedly it dropped again yesterday&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the information from Deepseek&amp;rsquo;s official website:
+For all models, the input cache hit price has been reduced to 1/10 of the launch price. This price adjustment takes effect from 2026/4/26 12:15 UTC.&lt;/p&gt;
+&lt;p&gt;The deepseek-v4-pro model API pricing will be officially adjusted to 1/4 of the original price after the 75% discount promotion ends on 2026/05/31 15:59 UTC.
+&lt;img alt="Figure 1" loading="lazy" src="https://hummingbirdlabs.github.io/images/6-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This means: Deepseek V4 Pro will permanently stay at 25% of the original price.&lt;/p&gt;
+&lt;p&gt;DeepSeek is so generous, I must support them by adding funds. So I happily recharged another 700 RMB (about $100 USD) to DeepSeek. Let&amp;rsquo;s see how long this $100 credit will last.
+&lt;img alt="Figure 1" loading="lazy" src="https://hummingbirdlabs.github.io/images/6-02.jpg"&gt;&lt;/p&gt;
+&lt;h2 id="model-capabilities-still-need-improvement-fixing-certain-ui-interaction-bugs-isnt-necessarily-faster-than-human-developers"&gt;Model capabilities still need improvement. Fixing certain UI interaction bugs isn&amp;rsquo;t necessarily faster than human developers.&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve found that on Windows WPF UI, all models (deepseek-v4-pro, Qwen3.6 Plus, Claude Sonnet 4.6, etc.) don&amp;rsquo;t perform very well. They easily produce compilation errors, runtime errors, and various UI data passing anomalies.&lt;/p&gt;
+&lt;p&gt;Is it because the Windows tech stack has fewer training materials for models, plus the numerous and complex library versions, leading to poor model performance?&lt;/p&gt;
+&lt;p&gt;My current solution is: add detailed local logs in debug mode to provide AI with more runtime information.&lt;/p&gt;
+&lt;h3 id="static-code--runtime-logs--complete-program-information"&gt;Static code + runtime logs = complete program information.&lt;/h3&gt;
+&lt;p&gt;Simply letting the LLM review code is not enough. Because the LLM can only judge program behavior based on static code. There are many hidden assumptions here. When AI reviews only a portion of code, it assumes other modules are working correctly.&lt;/p&gt;
+&lt;p&gt;If you let AI review all code in a project, the context becomes too long, leading to AI hallucinations (I mentioned this in a previous blog).&lt;/p&gt;
+&lt;p&gt;So I strongly recommend: always add detailed local logs in debug mode to provide AI with more runtime information.&lt;/p&gt;
+&lt;h1 id="a-brief-about-me"&gt;A Brief About Me&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&amp;amp;D projects and managing teams of 100+ engineers.&lt;/p&gt;
+&lt;p&gt;Currently, I&amp;rsquo;m pursuing entrepreneurship in the AI field.&lt;/p&gt;
+&lt;p&gt;Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;</description></item><item><title>More on TRAE China Version: Free Models Are Great But Slow</title><link>https://hummingbirdlabs.github.io/posts/post-005/</link><pubDate>Fri, 22 May 2026 21:16:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-005/</guid><description>&lt;h1 id="trae-china-version-real-data-on-free-model-speed"&gt;TRAE China Version: Real Data on Free Model Speed&lt;/h1&gt;
+&lt;p&gt;Let me start with the conclusion: if you use the free models in TRAE China&amp;rsquo;s version, they will be slower than custom paid models (even when comparing the same model).&lt;/p&gt;
+&lt;p&gt;The free models are mainly slower in 3 aspects:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;When processing large tasks, free models may display a prompt: &amp;ldquo;Model has reached the maximum number of thinking attempts. Please type &amp;lsquo;continue&amp;rsquo; to get more results.&amp;rdquo; When this happens, you need to manually type &amp;ldquo;continue&amp;rdquo; to proceed. As shown in Figure 1.
+&lt;img alt="Figure 1" loading="lazy" src="https://hummingbirdlabs.github.io/images/5-01.jpg"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calling free models requires queuing; this was already mentioned in the previous blog. As shown in Figure 2.
+&lt;img alt="Figure 2" loading="lazy" src="https://hummingbirdlabs.github.io/images/5-02.jpg"&gt;
+Additionally, during task processing, there&amp;rsquo;s a chance you&amp;rsquo;ll need to queue again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The DeepSeek V4 Pro model has think mode enabled by default, with a thinking depth of around 200, which makes it slower when processing large tasks. To illustrate this point, I recorded the execution time from my own project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The specific execution time for a task was: begin 11:34 / end 12:24.
+As shown in Figure 3.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Figure 3" loading="lazy" src="https://hummingbirdlabs.github.io/images/5-03.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s what I found: the free Qwen3.6 Plus model is significantly faster than the paid DeepSeek V4 Pro model when handling large tasks — and I mean much faster. Moreover, the free Qwen3.6 Plus model has shorter queue times.&lt;/p&gt;
+&lt;h1 id="those-are-the-real-data-and-facts-now-heres-my-opinion-deepseek-is-a-great-company-and-its-pricing-and-services-truly-benefit-the-public"&gt;Those Are the Real Data and Facts. Now Here&amp;rsquo;s My Opinion: DeepSeek Is a Great Company, and Its Pricing and Services Truly Benefit the Public&lt;/h1&gt;
+&lt;p&gt;I can understand that DeepSeek is still in development, which is why there are some limitations.&lt;/p&gt;
+&lt;p&gt;But the technology and services they provide are deeply imbued with a sense of human mission; based on this sense of mission and responsibility, this company is contributing to increasing the average intelligence of humanity.&lt;/p&gt;
+&lt;p&gt;This sense of mission and responsibility, in my personal view, stems from the founder&amp;rsquo;s simple beliefs and character. In short, it&amp;rsquo;s not about money — it&amp;rsquo;s about serving the people.&lt;/p&gt;
+&lt;h1 id="a-brief-about-me"&gt;A Brief About Me&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&amp;amp;D projects and managing teams of 100+ engineers.&lt;/p&gt;
+&lt;p&gt;Currently, I&amp;rsquo;m pursuing entrepreneurship in the AI field.&lt;/p&gt;
+&lt;p&gt;Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;</description></item><item><title>Why I Use TRAE: Free LLMs, Stability, and 1M Token Context</title><link>https://hummingbirdlabs.github.io/posts/post-004/</link><pubDate>Fri, 22 May 2026 14:37:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-004/</guid><description>&lt;h1 id="my-main-reason-for-using-trae-free-programming-llms"&gt;My Main Reason for Using TRAE: Free Programming LLMs&lt;/h1&gt;
+&lt;p&gt;Yes — the TRAE China version lets you try multiple large models for free. As shown in the screenshot, all of these models are available at no cost for trial.
+Here&amp;rsquo;s the full list of free models:&lt;/p&gt;
+&lt;p&gt;Doubao-Seed-2.0-Code、
+Doubao-Seed-1.8、
+Doubao-Seed-Code、
+MiniMax-M2.7、
+MiniMax-M2.5、
+GLM-5.1、
+GLM-5V-Turbo、
+GLM-5、
+DeepSeek-V4-Pro、
+DeepSeek-V4-Flash、
+Kimi-K2.6、
+Kimi-K2.5、
+Qwen3.6-Plus、
+Qwen3.5-Plus、&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Figure 1" loading="lazy" src="https://hummingbirdlabs.github.io/images/4-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the catch: when using these free models, you often need to wait anywhere from 1 to 10 minutes. In my experience, the average wait is around 3 minutes. But honestly — when you&amp;rsquo;re heading to bed or stepping away for a coffee, waiting 3–10 minutes is perfectly acceptable.&lt;/p&gt;
+&lt;p&gt;Another thing worth noting: TRAE also supports custom models. You can top up credits directly on DeepSeek&amp;rsquo;s official platform, or on Alibaba Cloud, then use your API key inside TRAE to call models. As shown below:
+&lt;img alt="Figure 2" loading="lazy" src="https://hummingbirdlabs.github.io/images/4-02.jpg"&gt;&lt;/p&gt;
+&lt;h1 id="my-second-main-reason-for-using-trae-fewer-freezes-and-timeouts-during-task-execution"&gt;My Second Main Reason for Using TRAE: Fewer Freezes and Timeouts During Task Execution&lt;/h1&gt;
+&lt;p&gt;When I previously used Copilot&amp;rsquo;s LLMs for AI coding, a recurring problem was the model getting stuck on a command, effectively blocking all subsequent tasks.&lt;/p&gt;
+&lt;p&gt;On TRAE, I encounter far fewer of these situations. Moreover, the entire workflow requires very few manual permission confirmations. This frees up my time and lets me run more tasks in parallel.&lt;/p&gt;
+&lt;p&gt;In fact, I&amp;rsquo;m currently juggling 4 projects simultaneously:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;TRAE&lt;/strong&gt;: rendering astronomical survey data into images.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Codespaces&lt;/strong&gt;: an offline old-photo AI restoration tool built with C# and WPF on Windows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local VS 2026 IDE&lt;/strong&gt;: a pet costume image generator built with C# and WPF — for example, dressing a puppy in a spacesuit or a kitten in a gothic dress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local VS 2026 IDE&lt;/strong&gt;: deploying LLMs locally on Windows with C# and WPF, and benchmarking model performance across different GPUs and CPUs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="my-third-main-reason-for-using-trae-deepseek-v4-pro-supports-a-1-million-token-context-window"&gt;My Third Main Reason for Using TRAE: DeepSeek v4 Pro Supports a 1-Million-Token Context Window&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve observed that Claude Sonnet 4.6 and Opus 4.7 both show noticeable code quality degradation once the task context exceeds 168K tokens.&lt;/p&gt;
+&lt;p&gt;DeepSeek v4 Pro, by contrast, supports a 1-million-token context window. This allows it to maintain consistent code quality even when working on large-scale projects.&lt;/p&gt;
+&lt;h1 id="my-next-blog-rendering-astronomical-survey-data-into-images"&gt;My Next Blog: Rendering Astronomical Survey Data into Images&lt;/h1&gt;
+&lt;p&gt;I love astronomy. I love looking at images of the universe. That&amp;rsquo;s why I built this project. I hope to share it with you soon — I think you&amp;rsquo;ll enjoy it too.&lt;/p&gt;
+&lt;p&gt;Beyond Earth lie the stars and the vast cosmic ocean. That is the ultimate destination for humanity.&lt;/p&gt;
+&lt;h1 id="a-brief-about-me"&gt;A Brief About Me&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&amp;amp;D projects and managing teams of 100+ engineers.&lt;/p&gt;
+&lt;p&gt;Now, I&amp;rsquo;m building an AI startup.&lt;/p&gt;
+&lt;p&gt;Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;</description></item><item><title>Using Qwen 3.6 Plus: Great but a Bit Expensive</title><link>https://hummingbirdlabs.github.io/posts/post-003/</link><pubDate>Fri, 22 May 2026 08:22:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-003/</guid><description>&lt;h1 id="i-think-qwen-36-plus-has-strong-coding-capabilities-but-my-costs-are-higher-than-expected"&gt;I Think Qwen 3.6 Plus Has Strong Coding Capabilities, But My Costs Are Higher Than Expected&lt;/h1&gt;
+&lt;p&gt;I compared two approaches:
+1、Using Qwen 3.6 Plus to write large-scale C# programs, then having DeepSeek v4 Pro conduct code reviews;
+2、Using DeepSeek v4 Pro to write large-scale C# programs, then having Qwen 3.6 Plus conduct code reviews.&lt;/p&gt;
+&lt;p&gt;I prefer the second approach for these reasons:
+1、DeepSeek v4 Pro supports a context length of up to 1 million tokens. For large projects, this helps maintain clear logical connections between modules. Additionally, DeepSeek v4 Pro is currently more affordable (until May 31, 2026, it’s offered at 25% of the regular price—see screenshots in my previous blog).
+2、Qwen 3.6 Plus delivers higher code quality but at a higher cost. Using it only for code reviews helps reduce overall expenses.&lt;/p&gt;
+&lt;p&gt;Below is a partial cost breakdown from my usage of Qwen 3.6 Plus. It might look cheap at first glance: one entry shows 876K tokens costing 1.7 RMB (≈ $0.24). But in practice, completing a single large engineering task often costs 30 RMB (≈ $4.00). The credits I top up on Alibaba Cloud deplete much faster with Qwen than with DeepSeek.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图1" loading="lazy" src="https://hummingbirdlabs.github.io/images/3-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Another important note: Alibaba grants new users 1 million free tokens for many models, as shown below.&lt;/p&gt;
+&lt;p&gt;But is 1 million tokens truly generous? From my hands-on coding experience:
+1 million tokens only cover 1–3 large programming tasks or several code reviews.
+For heavy AI-assisted coding users, 1 million tokens feel like a 100ml beer—barely a sip.
+&lt;img alt="图1" loading="lazy" src="https://hummingbirdlabs.github.io/images/3-02.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;So, if an article boasts about &amp;ldquo;burning 100 million tokens,&amp;rdquo; it likely reflects limited real-world AI coding experience.&lt;/p&gt;
+&lt;p&gt;To wrap up, I’d like to acknowledge:
+1、ByteDance’s TRAE IDE for its innovation;
+2、DeepSeek v4 Pro for its generous long-context support and current affordability (I’ll share updated billing data in June);
+3、Qwen 3.6 Plus for its strong coding capabilities and responsive API.&lt;/p&gt;
+&lt;p&gt;In upcoming blogs, I’ll detail how to leverage AI coding within TRAE.&lt;/p&gt;
+&lt;h1 id="a-brief-about-me"&gt;A Brief About Me&lt;/h1&gt;
+&lt;p&gt;I’ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&amp;amp;D projects and managing teams of 100+ engineers.&lt;/p&gt;
+&lt;p&gt;Now, I’m building an AI startup.&lt;/p&gt;
+&lt;p&gt;Why? The world runs on uncertainty—staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;</description></item><item><title>DeepSeek v4 Pro, Qwen 3.6 Plus, or Others: Which Should I Use?</title><link>https://hummingbirdlabs.github.io/posts/post-002/</link><pubDate>Thu, 21 May 2026 19:11:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-002/</guid><description>&lt;h1 id="i-like-deepseek-and-qwen"&gt;i like deepseek and Qwen&lt;/h1&gt;
+&lt;p&gt;Before May 2026, I had never used DeepSeek, Qwen 3.6 Plus, or any other Chinese LLMs for programming.
+As readers of my previous blog might recall, I primarily relied on GitHub Copilot’s models, favoring Claude Sonnet 3.6 and Claude Opus 4.7 (a bit pricey—if you’re wealthy, pretend I didn’t say that). My secondary choice was GPT Codex 5.3.&lt;/p&gt;
+&lt;p&gt;So when I first considered using DeepSeek or Qwen 3.6 Plus, I was skeptical—worried their code quality wouldn’t meet my standards.&lt;/p&gt;
+&lt;p&gt;I knew strategies like syntax/structure constraints and cross-model code reviews could mitigate risks, but I still wanted the base model’s capability to be as strong as possible.&lt;/p&gt;
+&lt;h2 id="first-steps-with-deepseek"&gt;First Steps with DeepSeek&lt;/h2&gt;
+&lt;p&gt;I started by topping up credits on DeepSeek’s official platform. Proof below:
+&lt;img alt="图1" loading="lazy" src="https://hummingbirdlabs.github.io/images/2-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Over the next few days, I intensively tested DeepSeek v4 Pro. To give you a clear picture, here’s my usage breakdown:&lt;/p&gt;
+&lt;h3 id="may-17-2026"&gt;May 17, 2026&lt;/h3&gt;
+&lt;p&gt;Cost: 18.28 RMB (≈ $2.53)
+Total tokens: 66,488,180
+Input (cached): 61,606,016
+Input (uncached): 4,193,347
+Output: 687,817&lt;/p&gt;
+&lt;h3 id="may-20-2026"&gt;May 20, 2026&lt;/h3&gt;
+&lt;p&gt;Cost: 6.61 RMB (≈ $0.92)
+Total tokens: 38,690,681
+Input (cached): 37,049,600
+Input (uncached): 1,387,345
+Output: 253,736&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图2" loading="lazy" src="https://hummingbirdlabs.github.io/images/2-02.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;If I maintain my recent high-intensity AI coding pace with DeepSeek v4 Pro:
+Daily cost: ~40 RMB (≈ $5.55); Monthly cost (30 days): ~1,200 RMB (≈ $166.50).&lt;/p&gt;
+&lt;p&gt;Is this cheap?
+Compared to Copilot Pro+ ($39/month for 1,500 premium requests, e.g., one Claude Sonnet 4.6 call), no.&lt;/p&gt;
+&lt;p&gt;But compared to Copilot’s post-June 2026 pricing (see my first blog), it’s a bargain.&lt;/p&gt;
+&lt;p&gt;Important Note:DeepSeek v4 Pro is currently 25% off until May 31, 2026 (see screenshot below). After June, prices will revert to standard rates.
+&lt;img alt="图3" loading="lazy" src="https://hummingbirdlabs.github.io/images/2-03.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I’ll share updated billing data in a follow-up blog to track real-world costs post-discount.&lt;/p&gt;
+&lt;h2 id="whats-next"&gt;What’s Next?&lt;/h2&gt;
+&lt;p&gt;In my next post, I’ll analyze Qwen 3.6 Plus’s AI coding costs.&lt;/p&gt;
+&lt;p&gt;After that, I’ll dive into:
+1、Token-saving strategies without sacrificing code quality.
+2、Cost-cutting methods that don’t rely on reducing token usage.
+3、Balancing affordability and reliability—how to save money while maintaining high code standards.&lt;/p&gt;
+&lt;h2 id="a-shoutout-to-google-gemini"&gt;A Shoutout to Google Gemini&lt;/h2&gt;
+&lt;p&gt;Today, I must praise Google Gemini. When I pasted an image asking for help, it returned a step-by-step guide image—truly impressive!
+&lt;img alt="图4" loading="lazy" src="https://hummingbirdlabs.github.io/images/2-04.jpg"&gt;&lt;/p&gt;
+&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
+&lt;p&gt;I’ve worked at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, leading large-scale R&amp;amp;D projects.&lt;/p&gt;
+&lt;p&gt;Now, I’m building an AI startup—because uncertainty fuels innovation, and corporate roles breed complacency.&lt;/p&gt;
+&lt;p&gt;Reach out: mailto:
+&lt;a href="mailto:HummingbirdLabs@outlook.com"&gt;HummingbirdLabs@outlook.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s discuss AI coding, cost optimization, or the future of LLMs.&lt;/p&gt;</description></item><item><title>GitHub Copilot’s June 2026 Billing Changes: My April and May Statements (Preview) Shocked Me</title><link>https://hummingbirdlabs.github.io/posts/post-001/</link><pubDate>Tue, 19 May 2026 20:00:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-001/</guid><description>&lt;h1 id="i-love-github-copilot-but-its-june-2026-billing-changes-worried-me"&gt;I Love GitHub Copilot, But Its June 2026 Billing Changes Worried Me&lt;/h1&gt;
+&lt;p&gt;Let me be clear: I genuinely love GitHub Copilot. As a loyal user and Copilot Pro+ subscriber ($39.00 per month), the 1,500 premium requests per month shown below have been invaluable—it’s the fuel behind my AI-powered coding workflow.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图1" loading="lazy" src="https://hummingbirdlabs.github.io/images/1-00.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I’d call this the most affordable, seamless token fuel for AI coding available. I’m deeply grateful to Microsoft for this service—though it’s disappointing that starting June 2026, billing will shift to a per-token model.&lt;/p&gt;
+&lt;p&gt;Using Microsoft’s Preview tool (&lt;a href="https://copilot-billing-preview.github.com/)"&gt;https://copilot-billing-preview.github.com/)&lt;/a&gt;, I analyzed my April and May statements. Under the new June pricing:
+1、April would cost $141.04
+2、May (through May 18) would cost $425.15&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图2" loading="lazy" src="https://hummingbirdlabs.github.io/images/1-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图3" loading="lazy" src="https://hummingbirdlabs.github.io/images/1-02.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This is extremely expensive. Extremely expensive. Extremely expensive. (Yes, I’m repeating it three times.) I understand Microsoft’s pricing strategy—they rely on third-party models and lack full control over upstream LLM costs. Still, the jump is staggering.&lt;/p&gt;
+&lt;p&gt;What’s Next?
+Given this, I’ll now explore more affordable large models that can handle complex coding tasks, like DeepSeek v4 Pro and Qwen 3.6 Plus. My next blog will compare their coding capabilities and cost efficiency.
+For developers deeply reliant on AI coding, tokens should feel as abundant and accessible as rain—not a luxury resource.
+&lt;img alt="图3" loading="lazy" src="https://hummingbirdlabs.github.io/images/1-03.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;
+&lt;p&gt;reach out to discuss AI coding tools, cost strategies, or stormy billing surprises.
+P.S. As a former engineer at Tencent (8 years), Meituan (7 years), Baidu, and NetEase Games, I’ve seen tech pricing shifts before. But this one stings.&lt;/p&gt;</description></item></channel></rss>
