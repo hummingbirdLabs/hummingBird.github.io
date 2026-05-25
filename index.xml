@@ -1,4 +1,38 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hummingbird Labs</title><link>https://hummingbirdlabs.github.io/</link><description>Recent content on Hummingbird Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 May 2026 09:36:00 +0800</lastBuildDate><atom:link href="https://hummingbirdlabs.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Deepseek V4 Pro Price Drop Again on May 23, 2026</title><link>https://hummingbirdlabs.github.io/posts/post-006/</link><pubDate>Sun, 24 May 2026 09:36:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-006/</guid><description>&lt;h2 id="worried-about-deepseek-returning-to-full-price-in-june-2026-but-unexpectedly-it-dropped-again-yesterday"&gt;Worried about Deepseek returning to full price in June 2026, but unexpectedly it dropped again yesterday&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hummingbird Labs</title><link>https://hummingbirdlabs.github.io/</link><description>Recent content on Hummingbird Labs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2026 14:42:00 +0800</lastBuildDate><atom:link href="https://hummingbirdlabs.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Deepseek V4 Pro Price Drop Again on May 23, 2026</title><link>https://hummingbirdlabs.github.io/posts/post-007/</link><pubDate>Mon, 25 May 2026 14:42:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-007/</guid><description>&lt;h3 id="what-to-do-when-ai-coding-tasks-exceed-context-limits-or-output-length"&gt;What to Do When AI Coding Tasks Exceed Context Limits or Output Length?&lt;/h3&gt;
+&lt;p&gt;When I use the Claude Sonnet 4.6 model for programming, I frequently encounter two situations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A single session&amp;rsquo;s task exceeds the context limit or output length, causing a significant drop in code quality.&lt;/li&gt;
+&lt;li&gt;AI generates an excessively long response, triggering &amp;ldquo;Sorry, the response hit the length limit. Please rephrase your prompt.&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;GitHub Codespace has a very useful feature: you can see the token consumption status for the current session.
+&lt;img alt="Figure 1" loading="lazy" src="https://hummingbirdlabs.github.io/images/7-01.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;My solution is: before exceeding the context limit, open a new session and re-describe the unfinished task.&lt;/p&gt;
+&lt;p&gt;I strongly recommend never letting a single session&amp;rsquo;s task exceed the context limit, otherwise it will cause a significant drop in AI code quality. In my own development experience, I&amp;rsquo;ve encountered similar situations more than once.&lt;/p&gt;
+&lt;p&gt;Although everyone has the awareness: too long context increases the probability of AI hallucinations. I don&amp;rsquo;t think it&amp;rsquo;s caused by the model&amp;rsquo;s own capabilities; 160K tokens are already sufficient.
+But another possibility is: it&amp;rsquo;s caused by Copilot&amp;rsquo;s context management strategy.&lt;/p&gt;
+&lt;h4 id="i-asked-gemini-35-flash-and-got-this-response"&gt;I Asked Gemini 3.5 Flash and Got This Response:&lt;/h4&gt;
+&lt;p&gt;When coding quality drops significantly after exceeding 160K tokens - this is actually a classic &amp;ldquo;scapegoat&amp;rdquo; phenomenon between underlying model capabilities and engineering wrappers.&lt;/p&gt;
+&lt;p&gt;This is mainly caused by GitHub Copilot&amp;rsquo;s context handling (engineering truncation, retrieval-augmented suppression, etc.), not the limits of the Claude 3.5 Sonnet model itself.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Core Reason: Copilot&amp;rsquo;s &amp;ldquo;Context Management&amp;rdquo; Strategy
+Claude 3.5 Sonnet itself has a 200K token context window. Under ideal conditions, it maintains extremely high &amp;ldquo;Needle In A Haystack&amp;rdquo; retrieval capabilities across the entire 200K range. But inside Copilot, things get complicated:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Sliding Window and Implicit Truncation: To save token costs (API fees) and ensure response speed, Copilot rarely sends the entire 160K+ raw conversation history word-for-word to Anthropic&amp;rsquo;s servers. It uses special algorithms for summarization, sliding window truncation, or vector retrieval (RAG).&lt;/p&gt;
+&lt;p&gt;Information Distortion: When your session is extremely long, what Copilot sends to Claude may no longer be the code you originally wrote, but &amp;ldquo;second-hand context&amp;rdquo; compressed and refined by Copilot. This engineering processing causes logical gaps in the code the model receives, and code quality naturally snowballs downward.&lt;/p&gt;
+&lt;p&gt;System Prompt Interference: Copilot injects very heavy system prompts (to constrain its behavior as an IDE programming assistant). When the context is extremely long, the model may experience conflicts in attention allocation between &amp;ldquo;following the Copilot framework&amp;rdquo; and &amp;ldquo;understanding user&amp;rsquo;s long code&amp;rdquo;.&lt;/p&gt;
+&lt;h4 id="my-solution-let-ai-design-phased-tasks-open-new-sessions-and-re-describe-new-stage-tasks"&gt;My Solution: Let AI Design Phased Tasks, Open New Sessions, and Re-describe New Stage Tasks&lt;/h4&gt;
+&lt;p&gt;Taking code review as an example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In Session 1: You can first let AI perform a code review and sort the issues to be fixed.&lt;/li&gt;
+&lt;li&gt;Get the review conclusions first; then open a new Session 2, with the prompt being the review conclusions, and let AI fix the P0 issues.&lt;/li&gt;
+&lt;li&gt;Open another Session 3, input the code review conclusions again, and let AI continue fixing P1 issues.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This way, you split one code review + bug fix into different sessions, which not only ensures coding quality but also reduces context consumption (reducing your costs).&lt;/p&gt;
+&lt;h3 id="a-brief-about-me"&gt;A Brief About Me&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&amp;amp;D projects and managing teams of 100+ engineers.&lt;/p&gt;
+&lt;p&gt;Currently, I&amp;rsquo;m pursuing entrepreneurship in the AI field.&lt;/p&gt;
+&lt;p&gt;Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out: mailto:HummingbirdLabs@outlook.com.&lt;/p&gt;</description></item><item><title>Deepseek V4 Pro Price Drop Again on May 23, 2026</title><link>https://hummingbirdlabs.github.io/posts/post-006/</link><pubDate>Sun, 24 May 2026 09:36:00 +0800</pubDate><guid>https://hummingbirdlabs.github.io/posts/post-006/</guid><description>&lt;h2 id="worried-about-deepseek-returning-to-full-price-in-june-2026-but-unexpectedly-it-dropped-again-yesterday"&gt;Worried about Deepseek returning to full price in June 2026, but unexpectedly it dropped again yesterday&lt;/h2&gt;
 &lt;p&gt;Here&amp;rsquo;s the information from Deepseek&amp;rsquo;s official website:
 For all models, the input cache hit price has been reduced to 1/10 of the launch price. This price adjustment takes effect from 2026/4/26 12:15 UTC.&lt;/p&gt;
 &lt;p&gt;The deepseek-v4-pro model API pricing will be officially adjusted to 1/4 of the original price after the 75% discount promotion ends on 2026/05/31 15:59 UTC.
