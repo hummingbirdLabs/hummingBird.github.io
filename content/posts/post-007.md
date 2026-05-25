@@ -1,5 +1,5 @@
 ---
-title: "Deepseek V4 Pro Price Drop Again on May 23, 2026"
+title: "What to Do When AI Coding Tasks Exceed Context Limits or Output Length?"
 date: 2026-05-25T14:42:00+08:00
 draft: false
 author: "Hummingbird Labs"
@@ -19,9 +19,8 @@ When I use the Claude Sonnet 4.6 model for programming, I frequently encounter t
 1. A single session's task exceeds the context limit or output length, causing a significant drop in code quality.
 2. AI generates an excessively long response, triggering "Sorry, the response hit the length limit. Please rephrase your prompt."
 
-
-GitHub Codespace has a very useful feature: you can see the token consumption status for the current session.
-![Figure 1](/images/7-01.jpg)
+GitHub Codespaces has a very useful feature: you can see the token consumption status for the current session.
+![Figure 2](/images/7-01.jpg)
 
 My solution is: before exceeding the context limit, open a new session and re-describe the unfinished task.
 
