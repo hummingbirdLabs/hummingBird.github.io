@@ -2,11 +2,12 @@
 title: "What to Do When AI Coding Tasks Exceed Context Limits or Output Length?"
 date: 2026-05-25T14:42:00+08:00
 draft: false
+slug: "ai-coding-context-limits"
 author: "Hummingbird Labs"
 
 description: "What to do when AI coding tasks exceed context limits? Practical strategies for managing long sessions in Claude, Copilot, and other AI coding assistants. Learn how to split code review and bug fixing into multiple sessions to maintain code quality and reduce token costs."
 
-tags: ["AI Coding", "Context Management", "Claude Sonnet", "GitHub Copilot", "Code Review", "AI Programming", "Token Optimization", "AI Development Workflow", "LLM Context Window", "Software Engineering"]
+tags: ["AI Coding", "Context Management", "Claude Sonnet", "GitHub Copilot", "Token Optimization", "LLM Context Window", "AI Development Workflow"]
 keywords: ["AI coding context limit", "Claude Sonnet 4.6 context management", "GitHub Copilot token limit", "AI code review best practices", "split AI coding sessions", "LLM context window optimization", "AI programming workflow"]
 
 
@@ -53,14 +54,25 @@ Taking code review as an example:
 
 This way, you split one code review + bug fix into different sessions, which not only ensures coding quality but also reduces context consumption (reducing your costs).
 
-### A Brief About Me
-I've worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&D projects and managing teams of 100+ engineers.
+### About Me
 
-Currently, I'm pursuing entrepreneurship in the AI field.
+I've worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large R&D projects and managing teams of over 100 engineers.
 
-Why? The world runs on uncertainty — staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.
+Now I build software as an independent developer.
 
-Feel free to reach out: mailto:HummingbirdLabs@outlook.com.
+Why? Because the world is full of uncertainty—staying at one company too long can make you addicted to certainty. Building on your own is like sailing into uncharted waters.
+
+I believe good software should give people a sense of security and control. That's the thread connecting everything I make:
+
+- **[PhotoRestore Pro](https://hummingbirdlabs.github.io/LegalPhotoRestorePro/introduction_en.html)** — AI photo restoration that runs 100% offline on Windows. Your photos never leave your device. No cloud, no account, no compromise on privacy. Built for legal professionals, but anyone with old family photos will find it useful.
+
+- **[AstroSky](https://hummingbirdlabs.github.io/Legal/AstroSky/introduction_en.html)** — Think of it as "Snapseed for astronomy." Turn raw FITS data into stunning celestial images. Fully offline, GPU-accelerated, with a Beauty/Science dual mode that serves both casual stargazers and researchers.
+
+- **[fastool.io](https://www.fastool.io/en)** — A collection of browser-based science tools. Right now it's focused on astronomy: solar path tracking, moon phase analysis, sidereal time calculation, telescope FOV planning—all running in your browser with zero data upload.
+
+Whether I'm gazing at the cosmos or refining a line of code, the goal is the same: build tools that put people in control of their own data.
+
+Get in touch: [HummingbirdLabs@outlook.com](mailto:HummingbirdLabs@outlook.com).
 
 
 

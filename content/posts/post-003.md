@@ -2,6 +2,7 @@
 title: "Using Qwen 3.6 Plus: Great but a Bit Expensive"
 date: 2026-05-22T08:22:00+08:00
 draft: false
+slug: "qwen-3-6-plus-cost-review"
 author: "Hummingbird Labs"
 
 description: "Hands-on cost analysis of Qwen 3.6 Plus for large-scale C# development: why 876K tokens for 1.7 RMB looks cheap but 30 RMB per engineering task adds up fast, and how a dual-model strategy with DeepSeek cuts the bill."
@@ -46,14 +47,25 @@ To wrap up, I’d like to acknowledge:
 
 In upcoming blogs, I’ll detail how to leverage AI coding within TRAE.
 
-# A Brief About Me
-I’ve worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large-scale R&D projects and managing teams of 100+ engineers.
+### About Me
 
- Now, I’m building an AI startup. 
- 
- Why? The world runs on uncertainty—staying in corporate roles too long breeds addiction to certainty. Starting an AI venture is like setting sail into uncharted waters.
+I've worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large R&D projects and managing teams of over 100 engineers.
 
-Feel free to reach out: mailto:HummingbirdLabs@outlook.com.
+Now I build software as an independent developer.
+
+Why? Because the world is full of uncertainty—staying at one company too long can make you addicted to certainty. Building on your own is like sailing into uncharted waters.
+
+I believe good software should give people a sense of security and control. That's the thread connecting everything I make:
+
+- **[PhotoRestore Pro](https://hummingbirdlabs.github.io/LegalPhotoRestorePro/introduction_en.html)** — AI photo restoration that runs 100% offline on Windows. Your photos never leave your device. No cloud, no account, no compromise on privacy. Built for legal professionals, but anyone with old family photos will find it useful.
+
+- **[AstroSky](https://hummingbirdlabs.github.io/Legal/AstroSky/introduction_en.html)** — Think of it as "Snapseed for astronomy." Turn raw FITS data into stunning celestial images. Fully offline, GPU-accelerated, with a Beauty/Science dual mode that serves both casual stargazers and researchers.
+
+- **[fastool.io](https://www.fastool.io/en)** — A collection of browser-based science tools. Right now it's focused on astronomy: solar path tracking, moon phase analysis, sidereal time calculation, telescope FOV planning—all running in your browser with zero data upload.
+
+Whether I'm gazing at the cosmos or refining a line of code, the goal is the same: build tools that put people in control of their own data.
+
+Get in touch: [HummingbirdLabs@outlook.com](mailto:HummingbirdLabs@outlook.com).
 
 
 

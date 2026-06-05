@@ -2,6 +2,7 @@
 title: "First Day After Quitting: I Found a Beetle Family in the Park"
 date: 2026-05-30T21:00:00+08:00
 draft: false
+slug: "first-day-after-quitting-beetles"
 author: "Hummingbird Labs"
 
 description: "On my first day after quitting, I started morning exercises and unexpectedly discovered a family of Chrysolina aurichalcea - beautiful metallic blue beetles. They seemed like a complete family, and I decided to document their daily lives every day."
@@ -85,10 +86,20 @@ See you tomorrow, beetle family!
 
 ### About Me
 
-I used to work at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large R&D projects and managing engineering teams of over 100 people.
+I've worked at NetEase Games, Baidu, Tencent (8 years), and Meituan (nearly 7 years), leading large R&D projects and managing teams of over 100 engineers.
 
-Now I'm starting a business in AI.
+Now I build software as an independent developer.
 
-Why? Because the world is full of uncertainty - staying in a company too long makes you addicted to certainty. AI entrepreneurship is like sailing into uncharted waters.
+Why? Because the world is full of uncertainty—staying at one company too long can make you addicted to certainty. Building on your own is like sailing into uncharted waters.
 
-Contact me: HummingbirdLabs@outlook.com.
+I believe good software should give people a sense of security and control. That's the thread connecting everything I make:
+
+- **[PhotoRestore Pro](https://hummingbirdlabs.github.io/LegalPhotoRestorePro/introduction_en.html)** — AI photo restoration that runs 100% offline on Windows. Your photos never leave your device. No cloud, no account, no compromise on privacy. Built for legal professionals, but anyone with old family photos will find it useful.
+
+- **[AstroSky](https://hummingbirdlabs.github.io/Legal/AstroSky/introduction_en.html)** — Think of it as "Snapseed for astronomy." Turn raw FITS data into stunning celestial images. Fully offline, GPU-accelerated, with a Beauty/Science dual mode that serves both casual stargazers and researchers.
+
+- **[fastool.io](https://www.fastool.io/en)** — A collection of browser-based science tools. Right now it's focused on astronomy: solar path tracking, moon phase analysis, sidereal time calculation, telescope FOV planning—all running in your browser with zero data upload.
+
+Whether I'm gazing at the cosmos or refining a line of code, the goal is the same: build tools that put people in control of their own data.
+
+Get in touch: [HummingbirdLabs@outlook.com](mailto:HummingbirdLabs@outlook.com).
